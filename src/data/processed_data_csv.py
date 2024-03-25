@@ -9,4 +9,4 @@ df_resampled = df.resample('H').mean()
 
 df_resampled.fillna(method='ffill', inplace=True)
 
-df_resampled.to_csv('C:/Users/bruli/Desktop/IIS/data//mbajk_processed.csv')
+df_resampled.to_csv('C:/Users/bruli/Desktop/IIS/data/mbajk_processed.csv')
